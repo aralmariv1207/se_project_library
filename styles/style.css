@@ -393,11 +393,11 @@
   display: flex;
 }
 
-.footer__column_content_hours {
+.footer__column_hours {
   margin-left: auto;
 }
 
-.footer__column_content_social {
+.footer__column_social {
   margin-left: 100px;
 }
 
@@ -444,6 +444,6 @@
   margin-right: 10px;
 }
 
-.footer__copyrights {
+.footer__column-copyrights {
   margin: 108px 0 0;
 }
