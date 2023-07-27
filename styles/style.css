@@ -100,6 +100,7 @@
   justify-content: space-between;
   box-sizing: border-box;
   background-color: #f2f2f2;
+  z-index: -1;
 }
 
 .events__content {
@@ -111,6 +112,7 @@
   font-weight: 500;
   line-height: 30px;
   margin: 0;
+  z-index: 1;
 }
 
 .events__title {
@@ -118,6 +120,7 @@
   font-weight: 500;
   line-height: 52px;
   margin: 32px 0 0;
+  z-index: 1;
 }
 
 .events__info-section {
@@ -179,56 +182,57 @@
   max-width: 100%;
 }
 
-figure {
+.person {
   position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  margin: 0;
 }
 
-.figure_name_feynman {
+.person_name_feynman {
   top: -30px;
   left: 319px;
 }
 
-.figure_name_burbidge {
+.person_name_burbidge {
   top: 96px;
   right: 125px;
 }
 
-.figure_name_cannon {
+.person_name_cannon {
   bottom: 18px;
   right: 216px;
 }
 
-.figure_name_mitchell {
+.person_name_mitchell {
   bottom: 82px;
   left: 142px;
 }
 
-.figure_name_tarter {
+.person_name_tarter {
   top: 79px;
   left: 159px;
 }
 
-.figure__image {
+.person__image {
   max-width: 100%;
 }
 
-.figure__image_size_l {
+.person__image_size_l {
   width: 140px;
 }
 
-.figure__image_size_m {
+.person__image_size_m {
   width: 100px;
 }
 
-.figure__image_size_s {
+.person__image_size_s {
   width: 80px;
 }
 
-figcaption {
+.person__caption {
   text-align: center;
   font-size: 14px;
   margin: 0;
